@@ -1,0 +1,193 @@
+:root {
+    --f-size: 20px;
+    --s-size: 16px;
+    --t-size: 14px;
+    --r-size: 12px;
+    --success: #40A578;
+    --warning: #FDA655;
+    --danger: #E72929;
+    --primary : #0174BE;
+    --ignore: #151515;
+    --primary-bg: #F6F6F6;
+    --card-color: #CDEAF7;
+    --bg-white: #FFFF;
+    --bg-balck: #000;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+}
+.f-container {
+    margin: 30px auto;
+    width: 1400px;
+    height: auto;
+    background-color: var(--primary-bg);
+    box-shadow:  rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    padding: 5px 0;
+}
+
+
+.container-1 {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    min-width: 250px;
+
+}
+.profile-image img{
+    width: 70px;
+    height: 70px;
+}
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name-matricule {
+    margin-bottom: 6px;
+    font-size: var(--f-size);
+    font-weight: 800;
+}
+
+.function {
+    font-size: var(--s-size);
+}
+
+
+#button-icon img {
+    height: 20px;
+    width: 20px;
+
+}
+
+.more-details img {
+    width: 40px;
+    height: 40px;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons-status {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-between;
+}
+.processed-ticket , .action_needed-ticke {
+    position: relative;
+left: 11px;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+#button-icon {
+    width: 100px;
+    height: 30px;
+    margin: 10px 5px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+    color: var(--bg-white);
+    font-size: var(--s-size);
+
+}
+
+label.label-b {
+    position: relative;
+    right: 7px;
+}
+
+.button_1 {
+    background-color: var(--success);
+}
+.button_2 {
+    background-color: var(--danger);
+}
+.button_3 {
+    background-color: var(--warning);
+}
+.button_4 {
+    background-color: var(--primary);
+}
+.button_5 {
+    background-color: var(--ignore);
+}
+
+.processed-ticket{
+    background-color: var(--success);
+    height: 60px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--bg-white );
+}
+
+.action_needed-ticket {
+    background-color: var(--warning);
+    height: 60px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--bg-white );
+} 
+
+.card {
+    margin: 5px 10px;
+    width: 120px;
+    height: 50px;
+    background-color: var(--card-color);
+    color: var(--bg-balck);
+    font-size: var(--r-size);
+    font-weight: 400;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+.result-label {
+    padding: 5px 0;
+    font-size: var(--t-size);
+    font-weight: 600;
+}   
+
+.result {
+    font-size: var(--f-size);
+    font-weight: 700;
+}
+
+.results-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.more-details {
+    align-self: end;
+}
+
