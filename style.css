@@ -223,7 +223,8 @@ td {
 }
 
 .detail-action {
-    padding: 5px 15px;
+    padding: 8px 15px;
+    width: 100px;
     border-radius: 10px;
     border: var(--bg-white) 1px solid;
 }
