@@ -7,140 +7,295 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="f-container">
-
-
-        <div class="container-1">
-            <div class="profile-image">
-                <img src="Icons/user.png" alt="" class="profile-image">
+    <div class="container-fluid">
+        <div class="f-container">
+            <div class="container-1">
+                <div class="profile-image">
+                    <img src="Icons/user.png" alt="" class="profile-image">
+                </div>
+                <div class="dt">
+                    <div class="profile-details">
+                        <div class="name-matricule">Adil SAIDI | 23657 </div>
+                        <div class="function">HCM Senior consultant</div>
+                        <div class="organization">SIHR-Departement</div>
+                    </div>
+                    <div class="status">
+                        <div class="processed-ticket">
+                            Processed
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="profile-details">
-                <div class="name-matricule">Adil SAIDI | 23657 </div>
-                <div class="function">HCM Senior consultant</div>
-                <div class="organization">SIHR-Departement</div>
+    
+    
+            <div class="container-2">
+                <div class="buttons-status">
+                    <div class="buttons">
+                        <div class="button_1" id="button-icon">
+                            <img src="Icons/Valid.png" alt="" id="valid">
+                            <label for="valid" class="label-b">Valid</label>
+                        </div>
+                        <div class="button_2" id="button-icon">
+                            <img src="Icons/Reject.png" alt="" id="Reject">
+                            <label for="Reject" class="label-b">Reject</label>
+                        </div>
+                        <div class="button_3" id="button-icon">
+                            <img src="Icons/pause-button.png" alt="" id="Suspend">
+                            <label for="Suspend" class="label-b">Suspend</label>
+                        </div>
+                        <div class="button_4" id="button-icon">
+                            <img src="Icons/Return.png" alt="" id="Return">
+                            <label for="Return" class="label-b">Return</label>
+                        </div>
+                        <div class="button_5" id="button-icon">
+                            <img src="Icons/Ignore.png" alt="" id="Ignore">
+                            <label for="Ignore" class="label-b">Ignore</label>
+                        </div>
+                    </div>
+    
+                    <div class="more-details" data-target="nested-table-1">
+                        <img src="Icons/more.png" alt="more">
+                    </div>
+    
+                </div>
+    
+                <div class="results-cards">
+                    <div class="card">
+                        <div class="result-label">Early Drepature</div>
+                        <div class="result">12  </div>
+                    </div>
+                    <div class="card">
+                        <div class="result-label">Early-D</div>
+                        <div class="result">12  </div>
+                    </div>
+                    <div class="card">
+                        <div class="result-label">Dealy-Ar</div>
+                        <div class="result">12  </div>
+                    </div>
+                    <div class="card">
+                        <div class="result-label">Extra-H</div>
+                        <div class="result">12  </div>
+                    </div>
+                    <div class="card">
+                        <div class="result-label">Delay-Dep-Dep-Dep-Dep
+                        </div>
+                        <div class="result">12  </div>
+                    </div>
+                    <div class="card">
+                        <div class="result-label">Ex-H-D-OF</div>
+                        <div class="result">12  </div>
+                    </div>
+                </div>
             </div>
-            <div class="status">
-                <div class="processed-ticket">
-                    Processed
+        </div>
+        <div class="nested-table-details" id="nested-table-1">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Type</th>
+                        <th>Quantite</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                        <td>Data 3</td>
+                        <td>Data 4</td>
+                        <td>
+                            <button class="detail-action valid-action">
+                                <img src="Icons/Valid.png" alt="">
+                            </button>
+                            <button class="detail-action reject-action">
+                                <img src="Icons/Reject.png" alt="">
+                            </button>
+                            <button class="detail-action suspend-action">
+                                <img src="Icons/pause-button.png" alt="">
+                            </button>
+                            <button class="detail-action return-action">
+                                <img src="Icons/Return.png" alt="">
+                            </button>
+                            <button class="detail-action ignore-action">
+                                <img src="Icons/Ignore.png" alt="">
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Data 6</td>
+                        <td>Data 7</td>
+                        <td>Data 8</td>
+                        <td>Data 9</td>
+                        <td>
+                            <button class="detail-action valid-action">
+                                <img src="Icons/Valid.png" alt="">
+                            </button>
+                            <button class="detail-action reject-action">
+                                <img src="Icons/Reject.png" alt="">
+                            </button>
+                            <button class="detail-action suspend-action">
+                                <img src="Icons/pause-button.png" alt="">
+                            </button>
+                            <button class="detail-action return-action">
+                                <img src="Icons/Return.png" alt="">
+                            </button>
+                            <button class="detail-action ignore-action">
+                                <img src="Icons/Ignore.png" alt="">
+                            </button>
+                        </td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="f-container">
+            <div class="container-1">
+                <div class="profile-image">
+                    <img src="Icons/user.png" alt="" class="profile-image">
+                </div>
+                <div class="dt">
+                    <div class="profile-details">
+                        <div class="name-matricule">Adil SAIDI | 23657 </div>
+                        <div class="function">HCM Senior consultant</div>
+                        <div class="organization">SIHR-Departement</div>
+                    </div>
+                    <div class="status">
+                        <div class="processed-ticket">
+                            Processed
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="container-2">
+                <div class="buttons-status">
+                    <div class="buttons">
+                        <div class="button_1" id="button-icon">
+                            <img src="Icons/Valid.png" alt="" id="valid">
+                            <label for="valid" class="label-b">Valid</label>
+                        </div>
+                        <div class="button_2" id="button-icon">
+                            <img src="Icons/Reject.png" alt="" id="Reject">
+                            <label for="Reject" class="label-b">Reject</label>
+                        </div>
+                        <div class="button_3" id="button-icon">
+                            <img src="Icons/pause-button.png" alt="" id="Suspend">
+                            <label for="Suspend" class="label-b">Suspend</label>
+                        </div>
+                        <div class="button_4" id="button-icon">
+                            <img src="Icons/Return.png" alt="" id="Return">
+                            <label for="Return" class="label-b">Return</label>
+                        </div>
+                        <div class="button_5" id="button-icon">
+                            <img src="Icons/Ignore.png" alt="" id="Ignore">
+                            <label for="Ignore" class="label-b">Ignore</label>
+                        </div>
+                    </div>
+    
+                    <div class="more-details" data-target="nested-table-2">
+                        <img src="Icons/more.png" alt="">
+                    </div>
+    
+                </div>
+    
+                <div class="results-cards">
+                    <div class="card">
+                        <div class="result-label">Early Drepature</div>
+                        <div class="result">12  </div>
+                    </div>
+                    <div class="card">
+                        <div class="result-label">Early-D</div>
+                        <div class="result">12  </div>
+                    </div>
+                    <div class="card">
+                        <div class="result-label">Dealy-Ar</div>
+                        <div class="result">12  </div>
+                    </div>
+                    <div class="card">
+                        <div class="result-label">Extra-H</div>
+                        <div class="result">12  </div>
+                    </div>
+                    <div class="card">
+                        <div class="result-label">Delay-Dep-Dep-Dep-Dep
+                        </div>
+                        <div class="result">12  </div>
+                    </div>
+                    <div class="card">
+                        <div class="result-label">Ex-H-D-OF</div>
+                        <div class="result">12  </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-
-        <div class="container-2">
-
-            <div class="buttons-status">
-                <div class="buttons">
-                    <div class="button_1" id="button-icon">
-                        <img src="Icons/Valid.png" alt="" id="valid">
-                        <label for="valid" class="label-b">Valid</label>
-                    </div>
-                    <div class="button_2" id="button-icon">
-                        <img src="Icons/Reject.png" alt="" id="Reject">
-                        <label for="Reject" class="label-b">Reject</label>
-                    </div>
-                    <div class="button_3" id="button-icon">
-                        <img src="Icons/pause-button.png" alt="" id="Suspend">
-                        <label for="Suspend" class="label-b">Suspend</label>
-                    </div>
-                    <div class="button_4" id="button-icon">
-                        <img src="Icons/Return.png" alt="" id="Return">
-                        <label for="Return" class="label-b">Return</label>
-                    </div>
-                    <div class="button_5" id="button-icon">
-                        <img src="Icons/Ignore.png" alt="" id="Ignore">
-                        <label for="Ignore" class="label-b">Ignore</label>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="results-cards">
-                <div class="card">
-                    <div class="result-label">Early Drepature</div>
-                    <div class="result">12  </div>
-                </div>
-                <div class="card">
-                    <div class="result-label">Early-D</div>
-                    <div class="result">12  </div>
-                </div>
-                <div class="card">
-                    <div class="result-label">Dealy-Ar</div>
-                    <div class="result">12  </div>
-                </div>
-                <div class="card">
-                    <div class="result-label">Extra-H</div>
-                    <div class="result">12  </div>
-                </div>
-                <div class="card">
-                    <div class="result-label">Delay-Dep-Dep-Dep-Dep
-                    </div>
-                    <div class="result">12  </div>
-                </div>
-                <div class="card">
-                    <div class="result-label">Ex-H-D-OF</div>
-                    <div class="result">12  </div>
-                </div>
-                <div class="card">
-                    <div class="result-label">Working-H</div>
-                    <div class="result">12  </div>
-                </div>
-                <div class="card">
-                    <div class="result-label">Holiday</div>
-                    <div class="result">12  </div>
-                </div>
-                <div class="card">
-                    <div class="result-label">Location</div>
-                    <div class="result">12  </div>
-                </div>
-                <div class="card">
-                    <div class="result-label">Public-HL</div>
-                    <div class="result">12  </div>
-                </div>
-                <!-- <div class="more-details" onclick="toggleNestedTable()">
-                    <img src="Icons/more.png" alt="">
-                </div> -->
-            </div>
-            <div class="more-details" onclick="toggleNestedTable()">
-                <img src="Icons/more.png" alt="">
-            </div>
+        <div class="nested-table-details" id="nested-table-2">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Type</th>
+                        <th>Quantite</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                        <td>Data 3</td>
+                        <td>Data 4</td>
+                        <td>
+                            <button class="detail-action valid-action">
+                                <img src="Icons/Valid.png" alt="">
+                            </button>
+                            <button class="detail-action reject-action">
+                                <img src="Icons/Reject.png" alt="">
+                            </button>
+                            <button class="detail-action suspend-action">
+                                <img src="Icons/pause-button.png" alt="">
+                            </button>
+                            <button class="detail-action return-action">
+                                <img src="Icons/Return.png" alt="">
+                            </button>
+                            <button class="detail-action ignore-action">
+                                <img src="Icons/Ignore.png" alt="">
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Data 6</td>
+                        <td>Data 7</td>
+                        <td>Data 8</td>
+                        <td>Data 9</td>
+                        <td>
+                            <button class="detail-action valid-action">
+                                <img src="Icons/Valid.png" alt="">
+                            </button>
+                            <button class="detail-action reject-action">
+                                <img src="Icons/Reject.png" alt="">
+                            </button>
+                            <button class="detail-action suspend-action">
+                                <img src="Icons/pause-button.png" alt="">
+                            </button>
+                            <button class="detail-action return-action">
+                                <img src="Icons/Return.png" alt="">
+                            </button>
+                            <button class="detail-action ignore-action">
+                                <img src="Icons/Ignore.png" alt="">
+                            </button>
+                        </td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
         </div>
     </div>
-
-    <div class="nested-table-details">
-        <table>
-            <thead>
-                <tr>
-                    <th>Date</th>
-                    <th>Type</th>
-                    <th>Quantite</th>
-                    <th>Status</th>
-                    <th>Action</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Data 1</td>
-                    <td>Data 2</td>
-                    <td>Data 3</td>
-                    <td>Data 4</td>
-                    <td>
-                        <button class="detail-action valid-action">Valid</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Data 6</td>
-                    <td>Data 7</td>
-                    <td>Data 8</td>
-                    <td>Data 9</td>
-                    <td>
-                        <button class="detail-action ignore-action">Ignore</button>
-                    </td>
-                </tr>
-                <!-- Add more rows as needed -->
-            </tbody>
-        </table>
-    </div>
+    
 
 
     <script src="code.js"></script>
