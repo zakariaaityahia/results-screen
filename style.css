@@ -62,6 +62,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
+
 }
 .name-matricule {
     margin-bottom: 6px;
@@ -84,6 +86,9 @@
     width: 30px;
     height: 30px;
 }
+.more-details:hover {
+    content: "Show more";
+}
 
 .container-2 {
     display: flex;
@@ -105,6 +110,7 @@
 .buttons {
     display: flex;
     flex-direction: row;
+    cursor: pointer;
 }
 
 #button-icon {
@@ -118,6 +124,7 @@
     align-items: center;
     color: var(--bg-white);
     font-size: var(--s-size);
+    cursor: pointer;
 
 }
 
@@ -209,6 +216,7 @@ label.label-b {
     position: relative;
     bottom: 3px;
     right: 5px;
+    cursor: pointer;
 }
 
 
@@ -228,8 +236,14 @@ th, td {
     text-align: center; 
 }
 th {
-    background-color: var(--card-color);
+    /* background-color: var(--card-color); */
     font-size: var(--s-size);
+    /* From https://css.glass */
+    background: rgba(205, 234, 247, 0.39);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(205, 234, 247, 1);
 }
 
 td {
@@ -242,6 +256,7 @@ td {
     padding: 3px 0;
     border-radius: 5px;
     border: var(--bg-white) 1px solid;
+    cursor: pointer;
 }
 
 
@@ -281,4 +296,16 @@ td {
 
 .nested-table-details {
     display: none; 
+}
+
+input[type="checkbox"] {
+    align-self: baseline;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    animation: grow 0.5s;
+    border: 3px solid var(--primary);
 }
