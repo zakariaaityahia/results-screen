@@ -4,7 +4,7 @@
     --t-size: 14px;
     --r-size: 12px;
     --success: #40A578;
-    --warning: #FDA655;
+    --warning: #DD761C;
     --danger: #E72929;
     --primary : #0174BE;
     --ignore: #151515;
@@ -12,6 +12,10 @@
     --card-color: #CDEAF7;
     --bg-white: #FFFF;
     --bg-balck: #000;
+    --bg-processed-status: #C3FF93;
+    --bg-processed-color: #416D19;
+    --bg-nd-status: #FFFF80;
+
 
 }
 
@@ -34,7 +38,7 @@
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     display: flex;
     flex-direction: row;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 5px 0;
 }
 
@@ -101,7 +105,7 @@
     /* align-items: center; */
     justify-content: end;
 }
-.processed-ticket , .action_needed-ticke {
+.processed-ticket , .action_needed-ticket {
     position: relative;
     margin-top: 5px;;
 }
@@ -150,7 +154,8 @@ label.label-b {
 }
 
 .processed-ticket{
-    background-color: var(--success);
+    background-color: var(--bg-processed-status);
+    color: var(--bg-processed-color) !important;
     height: 60px;
     height: 20px;
     border-radius: 10px;
@@ -162,7 +167,8 @@ label.label-b {
 }
 
 .action_needed-ticket {
-    background-color: var(--warning);
+    color: var(--warning) !important;
+    background-color: var(--bg-nd-status);
     height: 60px;
     height: 20px;
     border-radius: 10px;
